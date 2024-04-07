@@ -1,0 +1,15 @@
+{
+    "host": "0.0.0.0",
+    "port": 8000,
+    "models": [
+        {
+            "model": "models/model.gguf",
+            "model_alias": "gpt-4",
+		    "chat_format": "chatml",
+            "n_gpu_layers": 0,
+            "n_threads": 4,
+            "n_batch": 512,
+            "n_ctx": 2048
+        }
+	]
+}
